@@ -15,5 +15,3 @@ api = connection.get_api()
 
 backupmikrotik = api.get_resource('/system/backup')
 backupmikrotik.save(name="hola")
-
-print('Ayyyy mushasho')
